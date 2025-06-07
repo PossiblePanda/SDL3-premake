@@ -3,7 +3,7 @@ local outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 project "SDL3"
 	kind "StaticLib"
 	language "C++"
-    staticruntime "off"
+	staticruntime "off"
 
 	-- You may want to configure this for your own project structure
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
