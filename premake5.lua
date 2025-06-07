@@ -32,7 +32,7 @@ project "SDL3"
 		runtime "Release"
 		optimize "on"
 
-    filter "configurations:Dist"
+	filter "configurations:Dist"
 		runtime "Release"
 		optimize "on"
         symbols "off"
